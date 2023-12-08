@@ -1,0 +1,71 @@
+.mainContainer {
+  border: solid red 1px;
+  width: 280px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.screen {
+  background-color: lightblue;
+  width: 280px;
+  height: 70px;
+}
+
+#display {
+  width: 280px;
+  height: 25px;
+}
+
+.rows {
+  height: 70px;
+}
+
+.row1 {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+}
+
+.row2 {
+  background-color: salmon;
+  display: flex;
+  flex-direction: row;
+}
+
+.row3 {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+}
+
+.row4 {
+  background-color: salmon;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons {
+  width: 70px;
+  height: 70px;
+  user-select: none;
+}
+
+.numbers {
+  margin: 0;
+  text-align: center;
+  margin-top: 35%;
+  font-weight: bold;
+}
+
+.operators {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 35%;
+  font-weight: bold;
+}
+
+.operatorButtons {
+  width: 70px;
+  height: 70px;
+  user-select: none;
+}
