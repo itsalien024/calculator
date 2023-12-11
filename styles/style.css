@@ -1,19 +1,34 @@
+body {
+  background-color: gray;
+}
+
 .mainContainer {
-  border: solid red 1px;
   width: 280px;
-  height: 350px;
+  height: 400px;
   margin: 0 auto;
+  background-color: black;
+  border-radius: 25px;
 }
 
 .screen {
-  background-color: lightblue;
   width: 280px;
-  height: 70px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 #display {
   width: 280px;
   height: 25px;
+  text-align: right;
+  color: white;
+}
+
+#currentContent {
+  height: 25px;
+  margin-bottom: 25px;
+  color: white;
 }
 
 .rows {
@@ -21,25 +36,21 @@
 }
 
 .row1 {
-  background-color: blueviolet;
   display: flex;
   flex-direction: row;
 }
 
 .row2 {
-  background-color: salmon;
   display: flex;
   flex-direction: row;
 }
 
 .row3 {
-  background-color: blueviolet;
   display: flex;
   flex-direction: row;
 }
 
 .row4 {
-  background-color: salmon;
   display: flex;
   flex-direction: row;
 }
@@ -48,24 +59,46 @@
   width: 70px;
   height: 70px;
   user-select: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .numbers {
   margin: 0;
   text-align: center;
-  margin-top: 35%;
   font-weight: bold;
-}
-
-.operators {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 35%;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
 }
 
 .operatorButtons {
   width: 70px;
   height: 70px;
   user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.operators {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF9F0A;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+
