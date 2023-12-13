@@ -103,8 +103,10 @@ equals.addEventListener('click', function() {
   if (currentValue.length === 2) {
     currentValue[2] = currentValue[0]
     calculate();
+    currentContent.textContent = '';
   }else if (currentValue.length === 3) {
     calculate();
+    currentContent.textContent = '';
   }
 })
 
