@@ -23,12 +23,16 @@ body {
   height: 25px;
   text-align: right;
   color: white;
+  box-sizing: border-box;
+  padding: 15px;
 }
 
 #currentContent {
   height: 25px;
   margin-bottom: 25px;
   color: white;
+  box-sizing: border-box;
+  padding: 15px;
 }
 
 .rows {

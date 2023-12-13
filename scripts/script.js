@@ -101,10 +101,8 @@ subtract.addEventListener('click', function() {
 
 equals.addEventListener('click', function() {
   if (currentValue.length === 2) {
-    currentValue.push(Number(display.textContent));
+    currentValue[2] = currentValue[0]
     calculate();
-    display.textContent = 'Answer: ' + currentValue[0];
-    currentContent.textContent = '= ' + currentValue.join(' ');
   }else if (currentValue.length === 3) {
     calculate();
   }
